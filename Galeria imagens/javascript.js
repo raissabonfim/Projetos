@@ -6,9 +6,64 @@ let C = 0;
 C = 10;
 console.log(C);
 
+const notaMedia = 6;
+
+if(notaMedia >=6){
+    alert("Aluno PASSOU");
+    //aqui vai o código
+}
+else if(notaMedia >= 4 && notaMedia < 6){
+    alert("aluno quase passou")
+}
+
+else{
+    alert("Aluno reprovou!");
+    //se não, faça outra coisa
+    //(aqui vai o código)
+}
+
+// -------OPERADORES-------
+// = sinal de atribuição
+// == sinal de comparação
+// === Verifica se os dois são iguais e tem o mesmo tipo de dados
+// != se é diferente(compara)
+// !== se é estritamente
+// > maior
+// < menor
+
+const professor =  "João";
+if(professor == "Lucas"){
+    console.log('Sim é Lucas')
+}
+else {
+    console.log('Não é Lucas')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // o vento DOM é acionado quando todo o HTML foi completamente carregado
 document.addEventListener('DOMContentLoaded', function(){
-    alert(123)
+   
 
     //Tipos de Dados
     //string: Sequencia de caracter 
@@ -28,4 +83,4 @@ document.addEventListener('DOMContentLoaded', function(){
     //let C = 0;
    //C = 10;
     //console.log(C);
-}
+})
